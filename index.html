@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Catalogo Virtual</title>
+	<script type="text/javascript" src="public/js/jquery.js"></script>
+	<script type="text/javascript" src="public/js/turn.min.js"></script>	
+	<script type = "text/javascript">
+		$(document).ready(function(){
+				$("#revista").turn({
+				width: 1152,
+				height: 752,
+				autoCenter: true
+			});
+		});		
+	</script>
+	<style type="text/css">
+		body{
+			background-color: #696969;
+			margin: 60px;
+		}
+
+		#revista{
+			width:1152px;
+			height:752px;			
+		}	
+
+		h1{
+			text-align: center;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>	
+	<h1><img src="public/pages/Logo_branco.png"></h1>
+	<div id = "revista"> 		
+		<div><img src="public/pages/capa.jpg"></div> 
+		<div><img src="public/pages/page1.jpg"></div> 
+		<div><img src="public/pages/page2.jpg"></div> 
+		<div><img src="public/pages/page3.jpg"></div> 
+		<div><img src="public/pages/page4.jpg"></div> 
+		<div><img src="public/pages/page5.jpg"></div>
+		<div><img src="public/pages/page6.jpg"></div>
+		<div><img src="public/pages/page7.jpg"></div>
+		<div><img src="public/pages/page8.jpg"></div>
+		<div><img src="public/pages/page9.jpg"></div>  
+		<div><img src="public/pages/page10.jpg"></div> 
+		<div><img src="public/pages/page11.jpg"></div> 
+	</div>	
+</body>
+</html>

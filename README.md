@@ -1,7 +1,7 @@
-# catalogovirtual
+# Catálogo Virtual
 
-Catalogo Virtual simples, teste de uma empresa que realizei.
+Catálogo Virtual simples, teste de uma empresa que realizei.
 
 - Tema livre para desenvolve o catálogo.
 
-* Utilizando turn.js.
+* Utilizando framework turn.js
